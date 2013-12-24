@@ -1,10 +1,12 @@
 Source: libtext-iconv-perl
 Section: perl
 Priority: required
-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Standards-Version: 3.9.2
 Build-Depends: perl (>= 5.8.0-6), debhelper (>= 7.0.50~)
 Homepage: http://search.cpan.org/search?module=Text::Iconv
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: libtext-iconv-perl
 Architecture: any

@@ -1,3 +1,9 @@
+libtext-iconv-perl (1.7-5pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 24 Dec 2013 22:01:33 +0000
+
 libtext-iconv-perl (1.7-5) unstable; urgency=low
 
   * Fix typo in extended description
