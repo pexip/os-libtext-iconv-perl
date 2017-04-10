@@ -1,3 +1,9 @@
+libtext-iconv-perl (1.7-5+b2pexip1) pexip; urgency=low
+
+  * Migrate to Jessie
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 11 Apr 2017 00:32:21 +0100
+
 libtext-iconv-perl (1.7-5pexip1) pexip; urgency=low
 
   * Prepare Pexip packaging
