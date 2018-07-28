@@ -1,3 +1,9 @@
+libtext-iconv-perl (1.7-5+b4pexip1) pexip; urgency=low
+
+  * Migrate to Stretch
+
+ -- John-Mark Bell <jmb@pexip.com>  Sun, 29 Jul 2018 00:36:57 +0100
+
 libtext-iconv-perl (1.7-5+b2pexip1) pexip; urgency=low
 
   * Migrate to Jessie
