@@ -1,2 +1,2 @@
-version=3
-http://www.cpan.org/modules/by-module/Text/Text-Iconv-(.*)\.tar\.gz
+version=4
+https://metacpan.org/release/Text-Iconv   .*/Text-Iconv-v?@ANY_VERSION@@ARCHIVE_EXT@$

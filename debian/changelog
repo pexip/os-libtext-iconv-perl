@@ -1,3 +1,36 @@
+libtext-iconv-perl (1.7-7) unstable; urgency=medium
+
+  * Team upload.
+  * Update build system and dependencies for cross build support
+  * Update to Standards-Version 4.4.1
+  * Declare that the package does not need (fake)root to build
+
+ -- Niko Tyni <ntyni@debian.org>  Sun, 27 Oct 2019 17:26:25 +0200
+
+libtext-iconv-perl (1.7-6) unstable; urgency=medium
+
+  * Take over for the Debian Perl Group; Closes: #925034 -- RFA/ITA
+  * debian/control: Added: Vcs-Git field (source stanza); Vcs-Browser
+    field (source stanza). Changed: Homepage field changed to
+    metacpan.org URL; Maintainer set to Debian Perl Group <pkg-perl-
+    maintainers@lists.alioth.debian.org> (was: Anibal Monsalve Salazar
+    <anibal@debian.org>).
+  * debian/watch: use metacpan-based URL and use uscan version 4.
+  * Mark package as autopkgtest-able.
+  * Drop version from perl build dependency.
+  * Bump debhelper-compat to 12.
+  * Remove trailing whitespace from debian/*.
+  * Drop custom source compression. Drop custom source compression level.
+  * debian/copyright: use Copyright-Format 1.0.
+  * Add /me to Uploaders.
+  * Make short description a noun phrase.
+  * debian/rules: include dpkg makefile snippet instead of calling dpkg-
+    architecture.
+  * Set bindnow linker flag in debian/rules.
+  * Declare compliance with Debian Policy 4.4.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 14 Jul 2019 17:09:58 -0300
+
 libtext-iconv-perl (1.7-5) unstable; urgency=low
 
   * Fix typo in extended description
@@ -45,7 +78,7 @@ libtext-iconv-perl (1.7-2) unstable; urgency=low
 
 libtext-iconv-perl (1.7-1) unstable; urgency=low
 
-  * New upstream version. Closes: #468142  
+  * New upstream version. Closes: #468142
   * Added debian/watch file
   * Added homepage control header
   * Bumped Standards-Version to 3.7.3
@@ -147,5 +180,3 @@ libtext-iconv-perl (1.0-1) unstable; urgency=low
   * Initial Release.
 
  -- Steve Haslam <araqnid@debian.org>  Sat,  4 Mar 2000 18:43:50 +0000
-
-

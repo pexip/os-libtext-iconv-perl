@@ -1,15 +1,24 @@
 Source: libtext-iconv-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
 Section: perl
+Rules-Requires-Root: no
+Testsuite: autopkgtest-pkg-perl
 Priority: required
-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
-Standards-Version: 3.9.2
-Build-Depends: perl (>= 5.8.0-6), debhelper (>= 7.0.50~)
-Homepage: http://search.cpan.org/search?module=Text::Iconv
+Build-Depends: perl:native,
+               perl-xs-dev,
+               debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtext-iconv-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtext-iconv-perl.git
+Homepage: https://metacpan.org/release/Text-Iconv
 
 Package: libtext-iconv-perl
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
-Description: converts between character sets in Perl
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${perl:Depends}
+Description: module to convert between character sets in Perl
  The iconv() family of functions from XPG4 defines an API for converting
  between character sets (e.g. UTF-8 to Latin1, EBCDIC to ASCII). They
  are provided by libc6.
