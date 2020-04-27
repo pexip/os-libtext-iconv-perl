@@ -1,3 +1,9 @@
+libtext-iconv-perl (1.7-5+b4pexip2) pexip; urgency=low
+
+  * Migrate to Buster
+
+ -- Vincent Sanders <vince@pexip.com>  Mon, 27 Apr 2020 13:17:56 +0100
+
 libtext-iconv-perl (1.7-5+b4pexip1) pexip; urgency=low
 
   * Migrate to Stretch
