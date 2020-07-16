@@ -1,3 +1,15 @@
+libtext-iconv-perl (1.7-5+b7pexip4) pexip; urgency=medium
+
+  * Rebuild in buster environment
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Thu, 16 Jul 2020 15:52:30 +0000
+
+libtext-iconv-perl (1.7-5+b7pexip3) pexip; urgency=low
+
+  * No-change rebuild
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Thu, 16 Apr 2020 16:48:20 +0100
+
 libtext-iconv-perl (1.7-5+b7pexip2) pexip; urgency=low
 
   * Migrate to Buster
