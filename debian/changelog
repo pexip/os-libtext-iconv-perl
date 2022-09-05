@@ -1,3 +1,9 @@
+libtext-iconv-perl (1.7-7+b1pexip2) pexip-bullseye; urgency=medium
+
+  * Bullseye rebuild for ARM64 inclusion
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Mon, 05 Sep 2022 10:32:31 +0100
+
 libtext-iconv-perl (1.7-7+b1pexip1) pexip-bullseye; urgency=medium
 
   * Bump version number to supercede bullseye.
