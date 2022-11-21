@@ -1,3 +1,19 @@
+libtext-iconv-perl (1.7-8) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ gregor herrmann ]
+  * Update 'DEB_BUILD_MAINT_OPTIONS = hardening=+bindnow' to '=+all'.
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + libtext-iconv-perl: Add Multi-Arch: same.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 14:36:11 +0000
+
 libtext-iconv-perl (1.7-7) unstable; urgency=medium
 
   * Team upload.
