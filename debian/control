@@ -13,7 +13,7 @@ Standards-Version: 4.4.1
 Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtext-iconv-perl
 Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtext-iconv-perl.git
 Homepage: https://metacpan.org/release/Text-Iconv
-XS-Pexip-Upstream: http://deb.debian.org/debian/ bullseye
+XS-Pexip-Upstream: http://deb.debian.org/debian/ bookworm
 
 Package: libtext-iconv-perl
 Architecture: any
