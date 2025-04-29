@@ -1,3 +1,9 @@
+libtext-iconv-perl (1.7-8+pexip25u1) pexip-trixie; urgency=medium
+
+  * Initial trixie build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Tue, 29 Apr 2025 22:37:37 +0100
+
 libtext-iconv-perl (1.7-8+pexip24u3) pexip-bookworm; urgency=medium
 
   * New versioning scheme
